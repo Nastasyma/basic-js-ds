@@ -72,6 +72,7 @@ class BinarySearchTree {
           }
         }
       }
+
     }
   }
 
@@ -100,6 +101,7 @@ class BinarySearchTree {
           }
         }
       }
+
     }
   }
 
@@ -112,6 +114,7 @@ class BinarySearchTree {
       if(!node) {
         return null;
       } else {
+
         if (data > node.data) {
           node.right= removeNode(node.right, data)
           return node;
@@ -137,6 +140,7 @@ class BinarySearchTree {
           node.right = removeNode(node.right, rightMin.data);
           return node;
         }
+
       }
     }
   }
